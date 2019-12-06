@@ -58,8 +58,20 @@ table {
     transition: color 0.3s, font-weight 0.3s, border 0.3s;
 }
 
-.a href{
-    display: 0 auto;
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.lambda{
+    display: flex;
+    justify-content:center;
+}
+.highway{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
 }
 
 html, body {

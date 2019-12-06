@@ -50,6 +50,7 @@ table {
 * {
     box-sizing: border-box;
 }
+/*coding starts here*/
 
 .navigation a:hover {
 	font-weight: bold;
@@ -62,9 +63,15 @@ table {
 .navigation{
     font: black;
     display: flex;
-    justify-content: space-between;
-    margin:1%;
+    justify-content: space-evenly;
+    padding: 20px;
     align-items: center;
+    flex-direction: row;
+}
+
+.blacklambda{
+    display: inline-flex;
+    margin-left: 5%;
 }
 
 .highway{
@@ -213,5 +220,54 @@ footer nav a {
     display: flex;
     justify-content: center;
     margin: 3%;
+}
+
+.about div{
+    padding: 2%;
+}
+
+.about{
+    border-bottom: black dashed 1px;
+    padding: 2%;
+}
+
+.body{
+    display: block;
+}
+
+.sectionone img{
+    display: flex;
+    border-bottom: black dashed 1px;
+    flex-direction: row;
+}
+
+.sectionone .learnmore{
+    color: red;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.sectiontwo{
+    display: flex;
+    border-bottom: black dashed 1px;
+}
+.sectiontwo .learnmore{
+    color: red;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+.sectionthree{
+    margin: 2%;
+}
+.sectionthree .learnmore{
+    color: red;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.sectionthree div{
+    margin: 1%;
 }
 

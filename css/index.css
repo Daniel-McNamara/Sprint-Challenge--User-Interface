@@ -51,6 +51,17 @@ table {
     box-sizing: border-box;
 }
 
+.navigation a:hover {
+	color: black;
+	font-weight: bold;
+	border: solid 2px grey;
+    transition: color 0.3s, font-weight 0.3s, border 0.3s;
+}
+
+.a href{
+    display: 0 auto;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -115,33 +126,43 @@ p {
 .middle-content .boxes .box:nth-child(1){
     background: teal;
 }
+
 .middle-content .boxes .box:nth-child(2){
     background: gold;
 }
+
 .middle-content .boxes .box:nth-child(3){
     background: cadetblue;
 }
+
 .middle-content .boxes .box:nth-child(4){
     background: coral;
 }
+
 .middle-content .boxes .box:nth-child(5){
     background: crimson;
 }
+
 .middle-content .boxes .box:nth-child(6){
     background: forestgreen;
 }
+
 .middle-content .boxes .box:nth-child(7){
     background: darkorchid;
 }
+
 .middle-content .boxes .box:nth-child(8){
     background: hotpink;
 }
+
 .middle-content .boxes .box:nth-child(9){
     background: indigo;
 }
+
 .middle-content .boxes .box:nth-child(10){
     background: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;

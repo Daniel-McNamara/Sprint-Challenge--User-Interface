@@ -231,39 +231,28 @@ footer nav a {
     padding: 2%;
 }
 
-.sectionone{
+.columns{
+    max-width: 100%;
     display: flex;
-    border-bottom: black dashed 1px;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.sectionone .learnmore{
+.imgarea{
+    width: 40%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.learn{
     background-color: white;
     color: black;
     border: 1px solid black;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-.sectiontwo{
-    display: flex;
-    border-bottom: black dashed 1px;
-    flex-direction: row;
-}
-.sectiontwo .learnmore{
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 2px;
 }
 
 .sectionthree{
-    margin: 2%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
-
-
-.sectionthree div{
-    margin: 1%;
-}
-
-

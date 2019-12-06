@@ -50,6 +50,35 @@ table {
 * {
     box-sizing: border-box;
 }
+/*coding starts here*/
+
+.navigation a:hover {
+	font-weight: bold;
+	color: black;
+    transition: color 0.3s, font-weight 0.3s,
+}
+.navigation .a{
+    margin:1%;
+}
+.navigation{
+    font: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.blacklambda{
+    display: inline-flex;
+    margin-left: 5%;
+}
+
+.highway{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
 
 html, body {
     height: 100%;
@@ -112,6 +141,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +212,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* code for about.html */
+
+.building{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.about div{
+    padding: 2%;
+}
+
+.about{
+    border-bottom: black dashed 1px;
+    padding: 2%;
+}
+
+.columns{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgarea{
+    width: 40%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.learn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.sectionthree{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }

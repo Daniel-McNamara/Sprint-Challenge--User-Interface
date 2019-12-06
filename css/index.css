@@ -52,22 +52,18 @@ table {
 }
 
 .navigation a:hover {
-	color: black;
 	font-weight: bold;
-	border: solid 2px grey;
+	color: black;
     transition: color 0.3s, font-weight 0.3s, border 0.3s;
 }
 
 .navigation{
+    color: black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 2%;
 }
 
-.lambda{
-    display: flex;
-    justify-content:center;
-}
 .highway{
     display: flex;
     justify-content: center;
